@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Advanced Image Gallery | Portfolio Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+<div class="logo">📸 GalleryPro</div>
+<button id="themeToggle" class="theme-btn">🌙</button>
+</header>
+
+<h1>Advanced Image Gallery</h1>
+
+<div class="controls">
+<input type="text" id="searchInput" placeholder="Search images...">
+<div class="categories">
+<button class="filter-btn active" data-category="all">All</button>
+<button class="filter-btn" data-category="nature">Nature</button>
+<button class="filter-btn" data-category="city">City</button>
+<button class="filter-btn" data-category="animals">Animals</button>
+</div>
+</div>
+
+<div class="gallery" id="gallery"></div>
+
+<div class="upload-section">
+<h2>Upload Image</h2>
+<input type="file" id="imageUpload" accept="image/*"><br>
+<input type="text" id="imageCaption" placeholder="Caption"><br>
+<select id="imageCategory">
+<option value="nature">Nature</option>
+<option value="city">City</option>
+<option value="animals">Animals</option>
+</select><br>
+<button id="uploadBtn">Upload</button>
+</div>
+
+<div class="lightbox" id="lightbox">
+<span class="close" id="closeBtn">&times;</span>
+<span class="nav prev" id="prevBtn">❮</span>
+<img class="lightbox-img" id="lightboxImg">
+<div class="image-counter" id="imageCounter"></div>
+<div class="thumbnail-strip" id="thumbnailStrip"></div>
+<span class="nav next" id="nextBtn">❯</span>
+</div>
+<footer>© 2026 Komal Aher | Frontend Internship Portfolio Project</footer>
+<script src="script.js"></script>
+</body>
+</html>
