@@ -31,7 +31,7 @@ Image-Gallery-App/
 ## How to Run
 
 1. Clone the repository:
-   git clone [https://github.com/your-username/image-gallery-app.git](https://github.com/your-username/image-gallery-app.git)
+   git clone : https://komalaher1410-glitch.github.io/Syntexhub_AdvancedImageGallery/
 
 2. Open the project folder.
 
@@ -50,8 +50,8 @@ This project demonstrates:
 
 ## Author
 
-Your Name
+Komal Aher
 Frontend Developer
-GitHub: [https://github.com/your-username](https://github.com/your-username)
+GitHub: [https://github.com/komalaher1410-glicth]
 
 This project is for educational and portfolio purposes.
